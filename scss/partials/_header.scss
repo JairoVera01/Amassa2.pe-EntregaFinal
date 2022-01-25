@@ -1,6 +1,8 @@
 .header{
     font-size: $size-font-header;
-    
+    position: fixed;
+    z-index: 100;
+    width: 100%;
 }
 
 /*Nesting del & y usando hover*/

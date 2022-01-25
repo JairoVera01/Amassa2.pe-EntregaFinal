@@ -1,7 +1,10 @@
 /*Partials totales */
 /*Variables*/
 .header {
-  font-size: 1.29rem; }
+  font-size: 1.29rem;
+  position: fixed;
+  z-index: 100;
+  width: 100%; }
 
 /*Nesting del & y usando hover*/
 .header__img {
@@ -109,21 +112,22 @@
   display: flex;
   align-items: center;
   position: relative;
+  overflow: hidden;
   z-index: 2;
   /*Para ordenar div - suerponer uno por otro */ }
 
 .hero__contenedor {
   width: 400px;
   position: relative;
-  left: 4rem; }
+  left: 3rem; }
 
 .hero__titulo {
   color: white;
-  font-size: 3.5rem;
+  font-size: 3.2rem;
   margin-bottom: 3rem; }
 
 .btn__compra, .btn__mensaje, .btn__precios {
-  font-size: 1.2rem;
+  font-size: 1rem;
   margin-top: 0.2rem; }
 
 /*Uso de extends*/
