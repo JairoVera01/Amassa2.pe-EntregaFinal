@@ -341,3 +341,8 @@ body {
 
 .bg__title {
   color: white; }
+
+.img__about {
+  size-adjust: 100%;
+  max-width: 100%;
+  height: auto; }
