@@ -162,14 +162,13 @@ body {
   text-decoration: underline;
   letter-spacing: 0.05rem; }
 
-/*$redes:(
-    facebook--logo:#3b5998,
-    twitter--logo:#55acee,
-    google--logo:#dd4b39,
-    instagram--logo:#ac2bac,
-    linkedin--logo:#0082ca,
-    github--logo:#333333
-);*/
+.bg__footer {
+  background-color: #E3BC91; }
+
+.logo__footer {
+  height: 9rem;
+  border-radius: 5rem; }
+
 .facebook--logo {
   background-color: #3b5998; }
 
@@ -205,6 +204,7 @@ body {
   box-shadow: 2px 2px 3px #999;
   z-index: 100; }
   .float:hover {
+    background-image: linear-gradient(135deg, #e2d1c3 100%, #fdfcfb 0%);
     text-decoration: none;
     color: brown;
     background-color: #fff; }
@@ -330,3 +330,14 @@ body {
 .card:hover {
   border: #E3BC91 0.2em solid;
   transform: scale(1.03); }
+
+.bg__card {
+  background: #eacda3;
+  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #d6ae7b, #eacda3);
+  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #d6ae7b, #eacda3);
+  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */ }
+
+.bg__title {
+  color: white; }

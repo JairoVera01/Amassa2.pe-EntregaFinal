@@ -1,11 +1,13 @@
-/*$redes:(
-    facebook--logo:#3b5998,
-    twitter--logo:#55acee,
-    google--logo:#dd4b39,
-    instagram--logo:#ac2bac,
-    linkedin--logo:#0082ca,
-    github--logo:#333333
-);*/
+.bg__footer{
+    background-color: $color-principal;
+}
+
+.logo__footer{
+    height: $height-logo-footer;
+    border-radius: $border-logo;    
+}
+
+
 
 $redes:(
     color--fb:#3b5998,
