@@ -8,10 +8,11 @@
 
 /*Nesting del & y usando hover*/
 .header__img {
-  height: 4.2rem;
+  height: 3.5rem;
   border-radius: 5rem;
   transition: all 1s;
-  margin-left: 10px; }
+  margin-left: 10px;
+  border: white solid; }
   .header__img:hover {
     transform: translate(1rem); }
 
@@ -117,7 +118,7 @@
   /*Para ordenar div - suerponer uno por otro */ }
 
 .hero__contenedor {
-  width: 400px;
+  width: 600px;
   position: relative;
   left: 3rem; }
 
@@ -127,7 +128,7 @@
   margin-bottom: 3rem; }
 
 .btn__compra, .btn__mensaje, .btn__precios {
-  font-size: 1rem;
+  font-size: 1.2rem;
   margin-top: 0.2rem; }
 
 /*Uso de extends*/
@@ -194,7 +195,8 @@ body {
   height: 60px;
   bottom: 50px;
   right: 60px;
-  background-color: #E3BC91;
+  /*background-color:$color-principal;*/
+  background-image: linear-gradient(135deg, #fdfcfb 0%, #e2d1c3 100%);
   color: #FFF;
   border-radius: 50px;
   padding-top: 2px;
@@ -246,3 +248,85 @@ body {
 .column {
   float: left;
   width: 80%; }
+
+.btn-animado {
+  position: relative;
+  display: inline-block;
+  cursor: pointer;
+  outline: none;
+  border: 0;
+  vertical-align: middle;
+  text-decoration: none;
+  background: transparent;
+  padding: 0;
+  font-size: inherit;
+  font-family: inherit; }
+
+.btn-animado.learn-more {
+  width: 12rem;
+  height: auto; }
+
+.btn-animado.learn-more .circle {
+  transition: all 0.45s cubic-bezier(0.65, 0, 0.076, 1);
+  position: relative;
+  display: block;
+  margin: 0;
+  width: 3rem;
+  height: 3rem;
+  background: #E3BC91;
+  border-radius: 1.625rem; }
+
+.btn-animado.learn-more .circle .icon {
+  transition: all 0.45s cubic-bezier(0.65, 0, 0.076, 1);
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+  background: #fff; }
+
+.btn-animado.learn-more .circle .icon.arrow {
+  transition: all 0.45s cubic-bezier(0.65, 0, 0.076, 1);
+  left: 0.625rem;
+  width: 1.125rem;
+  height: 0.125rem;
+  background: none; }
+
+.btn-animado.learn-more .circle .icon.arrow::before {
+  position: absolute;
+  content: "";
+  top: -0.29rem;
+  right: 0.0625rem;
+  width: 0.625rem;
+  height: 0.625rem;
+  border-top: 0.125rem solid #fff;
+  border-right: 0.125rem solid #fff;
+  transform: rotate(45deg); }
+
+.btn-animado.learn-more .button-text {
+  transition: all 0.45s cubic-bezier(0.65, 0, 0.076, 1);
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  padding: 0.75rem 0;
+  margin: 0 0 0 1.85rem;
+  color: black;
+  font-weight: 700;
+  line-height: 1.6;
+  text-align: center;
+  text-transform: uppercase; }
+
+.btn-animado:hover .circle {
+  width: 100%; }
+
+.btn-animado:hover .circle .icon.arrow {
+  background: #fff;
+  transform: translate(1rem, 0); }
+
+.btn-animado:hover .button-text {
+  color: #fff; }
+
+.card:hover {
+  border: #E3BC91 0.2em solid;
+  transform: scale(1.03); }

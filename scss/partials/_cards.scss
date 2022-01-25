@@ -1,0 +1,6 @@
+.card{
+    &:hover{
+    border: $color-principal 0.2em solid;
+    transform: scale(1.03);
+    }
+}

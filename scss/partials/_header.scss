@@ -11,6 +11,7 @@
     border-radius: $border-logo;    
     transition: all 1s;
     margin-left: $margin-l-logo;
+    border: white solid;
 
     &:hover{
         transform: translate(1rem);
