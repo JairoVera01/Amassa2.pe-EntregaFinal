@@ -1,7 +1,8 @@
-# Amassa2.pe-3eraEntrega-PF
+# Amassa2.pe-Entrega-Final
 Proyecto realizado para la entrega final del curso de Desarrollo Web - CoderHouse
 Realizado por: Frank Jairo Vera Chamorro
 <hr>
+- 📄 Pagina web en  [Vercel]: (https://amassa2pe.vercel.app/)
 <p>El proyecto ha sido desarrollado para la marca Amassa2.pe. Se utilizando las tecnologias de Desarrollo y maquetacion web (Html, Css, Bootstrap, Sass)</p>
   
 <hr>
